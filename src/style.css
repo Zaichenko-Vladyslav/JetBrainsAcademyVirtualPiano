@@ -1,0 +1,60 @@
+body {
+    background-image: url("background.jpg");
+    background-size: 100%;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    top: 250px;
+}
+
+.left-keys {
+    position: relative;
+    left: 23px;
+    margin-left: -50px;
+    margin-right: 90px;
+}
+
+.right-keys {
+    position: relative;
+    left: 62px;
+    margin-right: 38px;
+}
+
+.black-keys kbd {
+    display: inline-block;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 40px;
+    position: relative;
+    font-size: 25px;
+    font-style: normal;
+    font-family: 'RocknRoll One', sans-serif;
+    color: white;
+    border: 2px black solid;
+    line-height: 17.2;
+    border-radius: 8px;
+    z-index: 1;
+    top: -304px;
+}
+
+.white-keys kbd {
+    display: inline-block;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 80px;
+    position: relative;
+    font-size: 30px;
+    font-style: normal;
+    font-family: 'RocknRoll One', sans-serif;
+    color: black;
+    border: 2px black solid;
+    line-height: 17.8;
+    border-radius: 8px;
+    z-index: 0;
+}
