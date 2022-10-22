@@ -13,5 +13,4 @@ document.addEventListener("keydown", function (piano) {
     } else {
         console.log("The '" + piano.code.replace("Key", "") + "' key is not on the piano");
     }
-
 });
